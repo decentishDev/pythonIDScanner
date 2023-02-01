@@ -2,15 +2,7 @@ import cv2
 import numpy as np
 import pytesseract
 from imutils.object_detection import non_max_suppression
-
-# import urllib.request
-# import ssl
-
-# ssl._create_default_https_context = ssl._create_unverified_context
-
-# url = "https://github.com/oyyd/frozen_east_text_detection.pb/blob/master/frozen_east_text_detection.pb"
-# filename = "frozen_east_text_detection.pb"
-# urllib.request.urlretrieve(url, filename)
+st.urlretrieve(url, filename)
 
 def decode_predictions(scores, geometry):
     (numRows, numCols) = scores.shape[2:4]
