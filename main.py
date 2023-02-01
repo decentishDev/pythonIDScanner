@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import pytesseract
 from imutils.object_detection import non_max_suppression
-st.urlretrieve(url, filename)
 
 def decode_predictions(scores, geometry):
     (numRows, numCols) = scores.shape[2:4]
